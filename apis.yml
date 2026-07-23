@@ -1,8 +1,32 @@
 aid: 9am-health
 name: 9am Health
-description: 9am Health is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  9amHealth (join9am.com) is a US virtual cardiometabolic clinic delivering
+  specialized care for type 2 diabetes, obesity/weight loss, high blood
+  pressure, and high cholesterol entirely from home. Founded in 2021 in San
+  Diego by mySugr co-founders Frank Westermann and Anton Kittelberger, the
+  company pairs at-home lab test kits, asynchronous and synchronous telehealth
+  visits with obesity specialists, pharmacists, dietitians, and behavioral
+  health experts, mail-order pharmacy for prescriptions including GLP-1 receptor
+  agonists, and optional connected devices such as continuous glucose monitors
+  into individualized care plans. It sells direct to individuals and through
+  employers, health plans, and pharmacy benefit managers. 9amHealth is a
+  consumer and enterprise telehealth brand and does not publish a public
+  developer API, SDK, or documentation program; this profile captures its
+  public web identity for the API Evangelist network. Backed by Speedinvest.
 url: https://raw.githubusercontent.com/api-evangelist/9am-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://join9am.com/hubfs/raw_assets/public/9amHealthTheme2022/assets/images/OG-ima-9amHealth.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -14,9 +38,46 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Health
+- Healthcare
+- Telehealth
+- Digital Health
+- Diabetes
+- Metabolic Health
+- Weight Loss
+- Pharmacy
+- Chronic Care
 apis: []
+common:
+- type: TrustCenter
+  url: security/9am-health-trust-center.yml
+- type: Compliance
+  url: https://join9am.com/trust
+- type: DomainSecurity
+  url: security/9am-health-domain-security.yml
+- type: Website
+  url: https://join9am.com/
+- type: Login
+  url: https://app.join9am.com/
+- type: SignUp
+  url: https://join9am.com/for-individuals
+- type: Support
+  url: https://help.9am.health/hc/en-us
+- type: Blog
+  url: https://join9am.com/blog
+- type: TermsOfService
+  url: https://join9am.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://join9am.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/9amhealth
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
